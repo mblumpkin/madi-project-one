@@ -36,10 +36,11 @@
   </header>
 
   <div class="single-bees" id="profile">
-  <h2 id="name">Name</h2>
-  <p id="bio">Bio</p>
+  <img id="beePfp" src="./img/Mibee.PNG" alt="Bee Picture"/>
+  <h2 id="name">Mibee Xiao</h2>
+  <p id="bio">Mibee bio</p>
   <div>
-    <button onclick="likeBee()">Buzz</button>
+    <button onclick="likeBee()">Pollinate</button>
     <button onclick="stingBee()">Sting</button>
    </div>
   </div>
@@ -48,13 +49,31 @@
 
 <script>
   const bees = [
-    { name: "Bee name 1", bio: "this is my bio" }, 
-    { name: "Bee name 2", bio: "this is my bio" }, 
-    { name: "Bee name 3", bio: "this is my bio" }, 
-    { name: "Bee name 4", bio: "this is my bio" }, 
-    { name: "Bee name 5", bio: "this is my bio" }, 
-    { name: "Bee name 6", bio: "this is my bio" }, 
-    { name: "Bee name 7", bio: "this is my bio" }
+     { 
+      name: "Pollen Frey", 
+      bio: "Pollen bio",
+      img: "./img/PollenFrey.PNG"
+    },
+    { 
+      name: "Beeia Honey", 
+      bio: "Beeia bio",
+      img: "./img/BeeiaHoney.PNG"
+    },
+    { 
+      name: "Burt Bee", 
+      bio: "Burt bio",
+      img: "./img/BurtBee.PNG"
+    },
+    { 
+      name: "Bartney Stinger", 
+      bio: "Bartney bio",
+      img: "./img/BartneyStinger.PNG"
+    },
+    { 
+      name: "Name 6", 
+      bio: "bio 6",
+      img: "https://cdn-icons-png.flaticon.com/512/3069/3069182.png"
+    }
   ];
 
   let index = 0;
@@ -63,18 +82,37 @@
     index = (index + 1) % bees.length;
     document.getElementById("name").textContent = bees[index].name;
     document.getElementById("bio").textContent = bees[index].bio;
+    document.getElementById("beePfp").src = bees[index].img;
   }
 
   function likeBee() {
-    alert("Input for match");
+    showPopup("There's a match in the hive!");
     nextBee();
   }
 
   function stingBee() {
-    alert("Input for Sting");
+    showPopup("You stung this bee!");
     nextBee();
   }
+
+  function showPopup(message) {
+  const popup = document.getElementById("popup");
+  const popupText = document.getElementById("popupText");
+
+  popupText.textContent = message;
+  popup.classList.remove("hidden");
+
+  setTimeout(() => {
+    popup.classList.add("hidden");
+  }, 2000); 
+}
+
 </script>
+
+<div id="popup" class="popup hidden">
+  <p id="popupText"></p>
+</div>
+
 </body>
 
 </html>
