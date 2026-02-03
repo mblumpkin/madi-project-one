@@ -20,12 +20,61 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Place your site's HTML here -->
-  <p>This text will display on your site! Jan 19</p>
+  <header>
+    <div class="header-container">
+    <h1>Find Your Honey Bee</h1>
+    </div>
+    <h2>
+      <p class="motto">Because no bee is complete without their honey 🍯</p>
+    </h2>
+  </header>
+
+  <div class="single-bees" id="profile">
+  <h2 id="name">Name</h2>
+  <p id="bio">Bio</p>
+  <div>
+    <button onclick="likeBee()"> Like</button>
+    <button onclick="stingBee()"> Sting</button>
+   </div>
+  </div>
+
   <script src="js/main.js"></script>
+
+<script>
+  const bees = [
+    { name: "Bee name 1", bio: "this is my bio" }, 
+    { name: "Bee name 2", bio: "this is my bio" }, 
+    { name: "Bee name 3", bio: "this is my bio" }, 
+    { name: "Bee name 4", bio: "this is my bio" }, 
+    { name: "Bee name 5", bio: "this is my bio" }, 
+    { name: "Bee name 6", bio: "this is my bio" }, 
+    { name: "Bee name 7", bio: "this is my bio" }
+  ];
+
+  let index = 0;
+
+  function nextBee() {
+    index = (index + 1) % bees.length;
+    document.getElementById("name").textContent = bees[index].name;
+    document.getElementById("bio").textContent = bees[index].bio;
+  }
+
+  function likeBee() {
+    alert("Input for match");
+    nextBee();
+  }
+
+  function stingBee() {
+    alert("Input for Sting");
+    nextBee();
+  }
+</script>
 </body>
 
 </html>
