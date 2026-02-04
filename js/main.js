@@ -13,7 +13,7 @@ const bees = [
     likes: ["like1","like2","like3"], dislikes:["dislike1","dislike2","dislike3"],
             partner: ["1", "2", "3"]},
   { name: "Madi Bee", bio: "Madi bio", img: "./img/MadiBee.png",
-    likes: ["like1","like2","like3"], dislikes:["dislike1","dislike2","dislike3"], 
+    likes: ["like1","Dance Moms","Bee Puns"], dislikes:["dislike1","dislike2","dislike3"], 
             partner: ["1", "2", "3"] },
   { name: "Mibee Xiao", bio: "Mibee bio", img: "./img/Mibee.PNG",
     likes: ["like1","like2","like3"], dislikes:["The Moon","dislike2","dislike3"],
@@ -22,14 +22,15 @@ const bees = [
     likes: ["Action Movies","Rock Music","like3"], dislikes:["dislike1","dislike2","dislike3"], 
             partner: ["1", "2", "3"] },
   {name: "Lauren Beechelle", bio: "Lauren bio", img: "./img/LaurenBeechelle.png", 
-    likes: ["like1","like2","like3"], dislikes:["dislike1","dislike2","dislike3"], 
+    likes: ["Bee Office","","like3"], dislikes:["dislike1","dislike2","dislike3"], 
             partner: ["1", "2", "3"] },
   {name: "Hope Swarm", bio: "Hope bio", img: "./img/HopeSwarm.png", 
     likes: ["like1","like2","like3"], dislikes:["dislike1","dislike2","dislike3"], 
             partner: ["1", "2", "3"] }, 
   {name: "Isabeela Yellolo", bio: "Isabeela bio", img: "./img/IsabeelaYelollo.png", 
-    likes: ["Fellow Bees","","like3"], dislikes:["Yellow Jackets","Gasoline","dislike3"], 
-            partner: ["1", "2", "3"] },             
+    likes: ["Fellow Bees","Honey","Flowers"], dislikes:["Yellow Jackets","Gasoline","dislike3"], 
+            partner: ["1", "2", "3"] }, 
+         
 ];
 
 let index = 0;
