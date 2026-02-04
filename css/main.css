@@ -134,3 +134,14 @@ button:hover {
   display: none;
 }
 
+footer {
+      margin-top: 20px;
+      padding: 20px;
+      font-size: 0.9rem;
+}
+
+.location-icon {
+    width: 34px; 
+    height: auto; 
+    border: none; 
+}
