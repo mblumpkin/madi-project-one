@@ -54,6 +54,9 @@ h2 {
 #beePfp {
     width: 170px; 
     height: auto; 
+    border-radius: 50%;       
+    padding: 2px;              
+    background-color: #ffc42f; 
 }
 
 .single-bees {
@@ -67,7 +70,8 @@ h2 {
 
 ul, ol {
     text-align: left;
-    margin: 6px 0 0 18px;
+    margin-top: 0;
+    margin-left: 18px;
 }
 
 .lists {
@@ -80,9 +84,17 @@ ul, ol {
     flex: 1;
 }
 
+.list-box h3 {
+  margin-bottom: 4px;
+}
+
 .partner-box {
       margin-top: 10px;
-    }
+}
+
+.partner-box h3{
+    margin-bottom: 4px; 
+}
 
 button {
     background: #ffc42f;
@@ -92,6 +104,8 @@ button {
     font-size: 1rem;
     cursor: pointer;
     margin-top: 10px;
+    margin-right: 20px; 
+    margin-left: 20px; 
 }
 
 button:hover {
