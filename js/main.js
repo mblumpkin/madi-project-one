@@ -6,12 +6,12 @@ const bees = [
   { name: "Beeia Honey", bio: "An energetic and extravagent bee ready to yap and buzz to any kind of pollen partner!", img: "./img/BeeiaHoney.PNG",
     likes: ["Horses","Tom Hivelston","Honey Espresso"], dislikes:["Beeology Class","Beessans","Pollentics"], 
             partner: ["Has to bee a catfly lover", "Likes to talk a lot", "Will play Hivecraft on dates"] },
+  {name: "Gabee Nectar", bio: "The sweetest bee you'll ever meet! She may be the smallest of the bees, but she's got the biggest heart!", img: "./img/GabeeNectar.png",
+    likes: ["Naps","Buzzing in Spanish","B-Dramas"], dislikes:["That one girl from that show","All-You-Can-Eat Nectar","Catflies"],
+    partner: ["Can reach the top shelf", "Somebee who will bee friendly", "Watches the wi-wi-wi catfly"] },
   { name: "Burt Bee", bio: "Has a tendancy to sneak into your bag to see what chapstick you're using, but loves to spend time flying together!", img: "./img/BurtBee.PNG",
     likes: ["Hydration","Organic Foods","Nectar"], dislikes:["Chapped Lips","Pollution","EOS"], 
             partner: ["Doesn't use a chapstick that isn't Burt's Bees", "Likes to talk long flights", "Doesn't sleep in"] },
-  { name: "Bartney Stinger", bio: "Is a proud member Sigma Buzz Fraternity at the local universibee. He loves to falunt his fuzz and is looking for a dedicated buzzball lover for his pollen partner. ", img: "./img/BartneyStinger.PNG",
-    likes: ["Hive Parties","Flying Around","Buzzball"], dislikes:["The Other Team","Wet Wings","Salty Honey"],
-            partner: ["Has to bee a partier 24/7", "Likes to bee a designated flier", "Can't bee a fan of the opposing buzzball team"]},
   { name: "Madi Bee", bio: "Is looking for the father of her weenie dogfly Abee. She also loves to cook and clean and is the perfect partner for your hive!", img: "./img/MadiBee.png",
     likes: ["Her dogfly Abbee","Dance Moms","Bee Puns"], dislikes:["Wind","Cockroaches","Red Beeans"], 
             partner: ["Is willing to parent Abbee", "Doesn't buzz along to music", "Will watch larvahood movies every night"] },
@@ -30,6 +30,15 @@ const bees = [
   {name: "Isabeela Yellolo", bio: "Just a regular bee like every other bee on this site. Definitely not a yellow jacket disguised as a bee.", img: "./img/IsabeelaYelollo.png", 
     likes: ["Fellow Bees","Honey","Flowers"], dislikes:["Yellow Jackets","Gasoline","dislike3"], 
             partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] }, 
+  {name: "Bartney Stinger", bio: "Is a proud member Sigma Buzz Fraternity at the local universibee. He loves to falunt his fuzz and is looking for a dedicated buzzball lover for his pollen partner. ", img: "./img/BartneyStinger.PNG",
+    likes: ["Hive Parties","Flying Around","Buzzball"], dislikes:["The Other Team","Wet Wings","Salty Honey"],
+    partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] },
+  {name: "Conrad Beedman", bio: "A carpenter bee. You would never know that he 3d printed his own hive.", img: "./img/ConradBeedman.PNG",
+    likes: ["3d Printing","Stinger Carpentry","Kings of Beeon Band"], dislikes:["Fires","Lazy Worker Bees","The Monarchy"],
+    partner: ["Has to be organized", "Wants a baby larva daughter", "Has to be on the carnivore diet"] },
+    {name: "Honey Jordan", bio: "", img: "./img/HoneyJordan.png",
+    likes: ["?","?","?"], dislikes:["Fires","m","?"],
+    partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] }
          
 ];
 
