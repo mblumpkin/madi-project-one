@@ -33,7 +33,7 @@ const bees = [
   {name: "Bartney Stinger", bio: "Is a proud member Sigma Buzz Fraternity at the local universibee. He loves to falunt his fuzz and is looking for a dedicated buzzball lover for his pollen partner. ", img: "./img/BartneyStinger.PNG",
     likes: ["Hive Parties","Flying Around","Buzzball"], dislikes:["The Other Team","Wet Wings","Salty Honey"],
     partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] },
-  {name: "Conrad Beedman", bio: "A carpenter bee. You would never know that he 3d printed his own hive.", img: "./img/ConradBeedman.PNG",
+  {name: "Conrad Beedman", bio: "A carpenter bee. You would never know that he 3d printed his own hive.", img: "./img/ConradBeedman.png",
     likes: ["3d Printing","Stinger Carpentry","Kings of Beeon Band"], dislikes:["Fires","Lazy Worker Bees","The Monarchy"],
     partner: ["Has to be organized", "Wants a baby larva daughter", "Has to be on the carnivore diet"] },
     {name: "Honey Jordan", bio: "A bee that likes to start everyday the same. She's looking for a partner to work with her when she sues the Honey Company.", img: "./img/HoneyJordan.png",
