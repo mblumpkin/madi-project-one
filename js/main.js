@@ -16,7 +16,7 @@ const bees = [
     likes: ["Her dogfly Abbee","Dance Moms","Bee Puns"], dislikes:["Wind","Cockroaches","Red Beeans"], 
             partner: ["Is willing to parent Abbee", "Doesn't buzz along to music", "Will watch larvahood movies every night"] },
   { name: "Mibee Xiao", bio: "Don't mistake her for the killer Asian hornet.", img: "./img/Mibee.PNG",
-    likes: ["Clowns","Chinebeese Food","Blue Skies"], dislikes:["The Moon","Pollen Frey","Hive School"],
+    likes: ["Clowns","Chibeese Food","Blue Skies"], dislikes:["The Moon","Pollen Frey","Hive School"],
             partner: ["Like to go to the circus", "Favorite color must bee blue", "Can't bee related to Pollen Frey"]  },
   {name: "Grant Buzzton", bio: "Only has eyes for Madi Bee but joined this site because Madi thought it would be funny.", img: "./img/GrantBuzzton.png", 
     likes: ["Action Movies","Rock Music","Nectar Cheesecake"], dislikes:["Glasses","Movie Spoilers","Humans"], 
@@ -36,9 +36,9 @@ const bees = [
   {name: "Conrad Beedman", bio: "A carpenter bee. You would never know that he 3d printed his own hive.", img: "./img/ConradBeedman.PNG",
     likes: ["3d Printing","Stinger Carpentry","Kings of Beeon Band"], dislikes:["Fires","Lazy Worker Bees","The Monarchy"],
     partner: ["Has to be organized", "Wants a baby larva daughter", "Has to be on the carnivore diet"] },
-    {name: "Honey Jordan", bio: "", img: "./img/HoneyJordan.png",
-    likes: ["?","?","?"], dislikes:["Fires","m","?"],
-    partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] }
+    {name: "Honey Jordan", bio: "A bee that likes to start everyday the same. She's looking for a partner to work with her when she sues the Honey Company.", img: "./img/HoneyJordan.png",
+    likes: ["Jazz","Lawsuits","Black and Yellow"], dislikes:["Tennis Balls","Vehicles","Rainy Days"],
+    partner: ["Is good a legal battles", "Doesn't work for human dealing in honey", "Likes Seinfeld"] }
          
 ];
 
