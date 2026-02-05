@@ -1,13 +1,13 @@
 // JS scripts placed here
 const bees = [
   { name: "Pollen Frey", bio: "A Canadian bee that came down to share his love of maple honey. He's ready to settle down in the hive and have larva of his own. ", img: "./img/PollenFrey.PNG",
-    likes: ["Maple Honey","Wing Painting","The Show Survivor"], dislikes:["Cookie Clicker","Madi Bee","Coding"], 
+    likes: ["Maple Honey","Wing Painting","The Show Survivor"], dislikes:["Cookie Clicker","Madi Bee","Technology"], 
             partner: ["Must always bee there", "Sense of humor", "Must bee a Star Wars fan"] },
   { name: "Beeia Honey", bio: "An energetic and extravagent bee ready to yap and buzz to any kind of pollen partner!", img: "./img/BeeiaHoney.PNG",
     likes: ["Horses","Tom Hivelston","Honey Espresso"], dislikes:["Beeology Class","Beessans","Pollentics"], 
             partner: ["Has to bee a catfly lover", "Likes to talk a lot", "Will play Hivecraft on dates"] },
   {name: "Gabee Nectar", bio: "The sweetest bee you'll ever meet! She may be the smallest of the bees, but she's got the biggest heart!", img: "./img/GabeeNectar.png",
-    likes: ["Naps","Buzzing in Spanish","B-Dramas"], dislikes:["That one girl from that show","All-You-Can-Eat Nectar","Catflies"],
+    likes: ["Naps","Buzzing in Spanish","B-Dramas"], dislikes:["That one bee from that show","All-You-Can-Eat Nectar","Catflies"],
     partner: ["Can reach the top shelf", "Somebee who will bee friendly", "Watches the wi-wi-wi catfly"] },
   { name: "Burt Bee", bio: "Has a tendancy to sneak into your bag to see what chapstick you're using, but loves to spend time flying together!", img: "./img/BurtBee.PNG",
     likes: ["Hydration","Organic Foods","Nectar"], dislikes:["Chapped Lips","Pollution","EOS"], 
@@ -32,13 +32,13 @@ const bees = [
             partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] }, 
   {name: "Bartney Stinger", bio: "Is a proud member Sigma Buzz Fraternity at the local universibee. He loves to falunt his fuzz and is looking for a dedicated buzzball lover for his pollen partner. ", img: "./img/BartneyStinger.PNG",
     likes: ["Hive Parties","Flying Around","Buzzball"], dislikes:["The Other Team","Wet Wings","Salty Honey"],
-    partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] },
+    partner: ["Has to be the designated flier", "Likes to party", "Wants to bee partners in crime"] },
   {name: "Conrad Beedman", bio: "A carpenter bee. You would never know that he 3d printed his own hive.", img: "./img/ConradBeedman.png",
     likes: ["3d Printing","Stinger Carpentry","Kings of Beeon Band"], dislikes:["Fires","Lazy Worker Bees","The Monarchy"],
     partner: ["Has to be organized", "Wants a baby larva daughter", "Has to be on the carnivore diet"] },
     {name: "Honey Jordan", bio: "A bee that likes to start everyday the same. She's looking for a partner to work with her when she sues the Honey Company.", img: "./img/HoneyJordan.png",
     likes: ["Jazz","Lawsuits","Black and Yellow"], dislikes:["Tennis Balls","Vehicles","Rainy Days"],
-    partner: ["Is good a legal battles", "Doesn't work for human dealing in honey", "Likes Seinfeld"] }
+    partner: ["Is good at legal battles", "Doesn't work for human dealing in honey", "Likes Seinfeld"] }
          
 ];
 
