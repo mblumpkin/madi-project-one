@@ -28,7 +28,7 @@ const bees = [
     likes: ["Stinger Wood Carving","Honeybo","Bird Watching"], dislikes:["Flying","AI Bee Bots","BuzzFeed"], 
             partner: ["Wants to live on a bee farm", "Is cool with shaving fuzz", "Likes to go to the honey market"] }, 
   {name: "Isabeela Yellolo", bio: "Just a regular bee like every other bee on this site. Definitely not a yellow jacket disguised as a bee.", img: "./img/IsabeelaYelollo.png", 
-    likes: ["Fellow Bees","Honey","Flowers"], dislikes:["Yellow Jackets","Gasoline","dislike3"], 
+    likes: ["Fellow Bees","Honey","Flowers"], dislikes:["Yellow Jackets","Gasoline","The Queen Bee"], 
             partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] }, 
   {name: "Bartney Stinger", bio: "Is a proud member Sigma Buzz Fraternity at the local universibee. He loves to falunt his fuzz and is looking for a dedicated buzzball lover for his pollen partner. ", img: "./img/BartneyStinger.PNG",
     likes: ["Hive Parties","Flying Around","Buzzball"], dislikes:["The Other Team","Wet Wings","Salty Honey"],
