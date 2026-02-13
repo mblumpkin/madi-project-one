@@ -1,4 +1,15 @@
 // JS scripts placed here
+
+let matchCounter = 0; 
+
+function submitPreference() {
+  const input = document.getElementById("userPreference").value;
+
+  console.log("User wants:", input); 
+
+  document.getElementById("profilePopup").style.display = "none";
+}
+
 const bees = [
   { name: "Pollen Frey", bio: "A Canadian bee that came down to share his love of maple honey. He's ready to settle down in the hive and have larva of his own. ", img: "./img/PollenFrey.PNG",
     likes: ["Maple Honey","Wing Painting","The Show Survivor"], dislikes:["Cookie Clicker","Madi Bee","Technology"], 
@@ -32,7 +43,7 @@ const bees = [
             partner: ["Has to bee a bee", "Doesn't talk to yellow jackets", "Wants to bee partners in crime"] }, 
   {name: "Bartney Stinger", bio: "Is a proud member Sigma Buzz Fraternity at the local universibee. He loves to falunt his fuzz and is looking for a dedicated buzzball lover for his pollen partner. ", img: "./img/BartneyStinger.PNG",
     likes: ["Hive Parties","Flying Around","Buzzball"], dislikes:["The Other Team","Wet Wings","Salty Honey"],
-    partner: ["Has to be the designated flier", "Likes to party", "Wants to bee partners in crime"] },
+    partner: ["Has to be the designated flier", "Likes to party", "Wants to watch buzzball"] },
   {name: "Conrad Beedman", bio: "A carpenter bee. You would never know that he 3d printed his own hive.", img: "./img/ConradBeedman.png",
     likes: ["3d Printing","Stinger Carpentry","Kings of Beeon Band"], dislikes:["Fires","Lazy Worker Bees","The Monarchy"],
     partner: ["Has to be organized", "Wants a baby larva daughter", "Has to be on the carnivore diet"] },
@@ -81,14 +92,31 @@ function nextBee() {
   renderBee();
 }
 
+const card = document.querySelector(".single-bees");
+
 function likeBee() {
+  matchCounter++; 
+  updateMatchCounter(); 
   showPopup("There's a match in the hive!");
-  nextBee();
+  swipe("right");
 }
 
 function stingBee() {
   showPopup("You stung this bee!");
-  nextBee();
+  swipe("left");
+}
+
+function swipe(direction) {
+  if (direction === "right") {
+    card.classList.add("swipe-right");
+  } else {
+    card.classList.add("swipe-left");
+  }
+
+  setTimeout(() => {
+    card.classList.remove("swipe-right", "swipe-left");
+    nextBee();
+  }, 400);
 }
 
 function showPopup(message) {
@@ -103,4 +131,30 @@ function showPopup(message) {
   }, 2000);
 }
 
+function updateMatchCounter() {
+  document.getElementById("matchCount").textContent = matchCounter;
+}
+
+function openMessage() {
+  document.getElementById("messagePopup").classList.remove("hidden");
+}
+
+function sendMessage() {
+  const msg = document.getElementById("beeMessage").value;
+
+  console.log("Message sent:", msg);
+
+  document.getElementById("beeMessage").value = "";
+  document.getElementById("messagePopup").classList.add("hidden");
+
+  showPopup("Your buzz has been sent! 🐝💬");
+}
+
+function sendMessage() {
+  const bee = bees[index].name;
+  document.getElementById("messagePopup").classList.add("hidden");
+  showPopup(bee + " buzzed back happily!");
+}
+
 renderBee();
+

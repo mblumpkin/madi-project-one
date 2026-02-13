@@ -26,6 +26,16 @@
 </head>
 
 <body>
+
+  <div id="profilePopup" class="profile-popup">
+    <div class="profile-box">
+      <h1 class="popup-title">Welcome to our Hive!</h1>
+      <h2>What are you looking for in a pollen partner:</h2>
+      <input type="text" id="userPreference" />
+      <button onclick="submitPreference()">Find your Honey Bee</button>
+    </div>
+  </div>
+
   <header>
     <div class="header-container">
       <h1>Find Your Honey Bee</h1>
@@ -33,9 +43,14 @@
     <p class="motto">Because no bee is complete without their honey 🐝💛🍯</h2>
   </header>
 
+  <div class="match-counter">
+  💛 Matches: <span id="matchCount">0</span>
+  </div>
+
 <main class="single-bees" id="profile">
   <img id="beePfp" src="./img/GrantBuzzton.png" alt="Bee Picture"/>
   <h2 id="name">Grant Buzzton</h2>
+  <button class="message-btn" onclick="openMessage()">💬 Message</button>
   <p id="bio">Grant bio</p>
   <div class="lists">
     <div class="list-box">
@@ -52,13 +67,27 @@
     <ol id="partner"></ol>
   </div>
   <div>
-    <button onclick="likeBee()">Pollinate</button>
     <button onclick="stingBee()">Sting</button>
+    <button onclick="likeBee()">Pollinate</button>
   </div>
   </div>
-  <div id="popup" class="popup hidden">
-  <p id="popupText"></p>
 </main>
+
+<div id="messagePopup" class="profile-popup hidden">
+  <div class="profile-box">
+    <h2>Send a buzz to this bee 🐝</h2>
+
+    <form onsubmit="sendMessage(); return false;">
+      <input type="text" id="beeMessage" placeholder="Type your message…" />
+      <button type="submit">Send</button>
+    </form>
+
+  </div>
+</div>
+
+<div id="popup" class="popup hidden">
+  <p id="popupText"></p>
+</div>
 
 <footer>
   <p>Ready to take the flight off the site? Find a local hive near you!</p>
